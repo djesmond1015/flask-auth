@@ -1,0 +1,36 @@
+/* variables */
+:root {
+  --gray-500: #030712;
+  --slate-500: #64748b;
+  --slate-300: #cbd5e1;
+}
+
+.bg-gray {
+  background-color: var(--gray-500);
+}
+
+/* font color */
+
+.text-slate-500 {
+  color: var(--slate-500);
+}
+
+.text-slate-300 {
+  color: var(--slate-300);
+}
+
+.error {
+  color: red;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.image-thumbnail {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
